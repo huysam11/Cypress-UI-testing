@@ -14,5 +14,5 @@ it('Veify if correct URLs loaded', () => {
         cy.origin('https://www.facebook.com/saucelabs', () => {
             cy.url().should('contain', 'facebook')
           })
-    
+    cy.clearCookies()
     })
