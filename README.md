@@ -1,13 +1,13 @@
 # CypressTesting On [saucedemo.com](https://www.saucedemo.com
 Created 6 test cases 
 1. Test Case: Verify if standard user/problem user can add and remove items
-- Preconditions: User is logged in as a standard user or a problem user.
+> Preconditions: User is logged in as a standard user or a problem user.
 - Steps:
 - Navigate to the product page.
 - Click on the "Add to Cart" button for a specific item.
 - Verify that the item is added to the user's cart.
 - Click on the "Remove" or "Delete" button for the item.
-- Verify that the item is removed from the user's cart.
+> Verify that the item is removed from the user's cart.
 
 2. Test Case: Verify if standard user can login, add an item, and check out successfully
 - Preconditions: User is not logged in as a standard user.
