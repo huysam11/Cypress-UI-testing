@@ -8,5 +8,6 @@ Created 6 test cases
 6. Social icons should be clickable and lead to correct URL
 
 Overall results: 
-![image](https://github.com/huysam11/CypressTesting/assets/99052999/6975e805-1e10-41e2-ae3d-ea212dbd8bb7)
+![image](https://github.com/huysam11/CypressTesting/assets/99052999/43fcb075-c934-482c-8fc6-84ce9e5dd466)
+
 Case 1 Failed as expected, because users were not able to click add or remove on certain items. 
