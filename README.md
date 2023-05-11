@@ -6,3 +6,7 @@ Created 6 test cases
 4. Check if users can log in and log out successfully 
 5. When users click on Title or Image, the product page should load properly 
 6. Social icons should be clickable and lead to correct URL
+
+Overall results: 
+![image](https://github.com/huysam11/CypressTesting/assets/99052999/6975e805-1e10-41e2-ae3d-ea212dbd8bb7)
+Case 1 Failed as expected, because users were not able to click add or remove on certain items. 
