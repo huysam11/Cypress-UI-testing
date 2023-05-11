@@ -11,5 +11,9 @@ it('Product page should load when clicking Title and eImag', () => {
         .get('[data-test="back-to-products"]').click()
         .get('#item_4_img_link > .inventory_item_img').click()
         .get('.inventory_details_img').should('be.visible')
+<<<<<<< HEAD
         cy.clearCookies()
+=======
+    cy.clearCookies()
+>>>>>>> aec65764c2c0101fa70018f1f604cba3e0f0bf2f
  })       
