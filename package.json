@@ -1,0 +1,15 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "Personal project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "author": "Huy Sam",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.12.0"
+  }
+}
