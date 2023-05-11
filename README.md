@@ -9,5 +9,5 @@ Created 6 test cases
 
 Overall results: 
 ![image](https://github.com/huysam11/CypressTesting/assets/99052999/b4331497-cf97-41c8-8851-c43fbaeaad1c)
-Case 1 Failed as expected, because users were not able to click add or remove on certain items. 
-In this case as QA, we should report this issue with evidences and expected behavior to developers and fix.  
+- Case 1 Failed as expected, because users were not able to click add or remove on certain items. 
+- In this case as QA, we should report this issue with evidences and expected behavior to developers and fix.  
