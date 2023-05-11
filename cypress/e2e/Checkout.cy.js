@@ -19,4 +19,5 @@ it('Check out', () => {
         .get('#checkout_complete_container').should('contain.text','Thank you for your order!')
         .get('[data-test="back-to-products"]').click()
         .get('.title').should('contain.text','Products')
+        cy.clearCookies()
     })      

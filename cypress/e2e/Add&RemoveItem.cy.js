@@ -40,4 +40,5 @@ it('Add&Remove with problem user (should fail) ', () => {
                 .get('[data-test="remove-sauce-labs-fleece-jacket"]').click()
                 .get('[data-test="remove-sauce-labs-onesie"]').click()
                 .get('[data-test="remove-test.allthethings()-t-shirt-(red)"]').click()
+                cy.clearCookies()
 })
