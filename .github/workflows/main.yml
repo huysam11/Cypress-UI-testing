@@ -1,13 +1,12 @@
-nane: Cypress Tests
-on: [push]
-jobs: 
+name: End-to-end tests
+on: push
+jobs:
   cypress-run:
-    runs-on: windows-lastest 
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout
-        uses: action/checkout@v3.5.2
-      - name: Cypress.io
-        uses: cypress-io/github-action@v5.7.2
-        with: 
-          start : npm start 
- 
+        uses: actions/checkout@v3
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v5
