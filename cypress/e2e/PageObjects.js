@@ -13,8 +13,6 @@ class PageObject
         cy.get('[data-test="login-button"]') .click()
     }
 
-cy.clearCookies()
-
     
 }
 export default PageObject
