@@ -10,7 +10,7 @@ Created 6 test cases
 > Verify that the item is removed from the user's cart.
 
 2. Test Case: Verify if standard user can login, add an item, and check out successfully
-- Preconditions: User is not logged in as a standard user.
+> Preconditions: User is not logged in as a standard user.
 - Steps:
 - Navigate to the login page.
 - Enter valid credentials for a standard user.
@@ -20,41 +20,41 @@ Created 6 test cases
 - Click on the "Add to Cart" button for a specific item.
 - Verify that the item is added to the user's cart.
 - Proceed to the checkout page.
-- Verify that the checkout process is successful.
+> Verify that the checkout process is successful.
 3. Test Case: Verify if error messages display correctly when users login with wrong credentials or a locked user
 
-- Preconditions: User is on the login page.
+> Preconditions: User is on the login page.
 - Steps:
 - Enter invalid credentials for a user (either wrong username/password or locked user).
 - Click on the "Login" button.
-- Verify that the appropriate error message is displayed indicating incorrect credentials or a locked user.
+> Verify that the appropriate error message is displayed indicating incorrect credentials or a locked user.
 
 4. Test Case: Verify if users can log in and log out successfully
 
-- Preconditions: User is not logged in.
+> Preconditions: User is not logged in.
 - Steps:
 - Navigate to the login page.
 - Enter valid credentials for a user.
 - Click on the "Login" button.
 - Verify that the user is successfully logged in.
 - Click on the "Logout" button or navigate to the logout page.
-- Verify that the user is successfully logged out.
+> Verify that the user is successfully logged out.
 
 5. Test Case: Verify if clicking on Title or Image loads the product page properly
 
-- Preconditions: User is on the home page or a product listing page.
+> Preconditions: User is on the home page or a product listing page.
 - Steps:
 - Locate a product title or image on the page.
 - Click on the product title or image.
-- Verify that the product page is loaded successfully with the relevant details.
+> Verify that the product page is loaded successfully with the relevant details.
 
 6. Test Case: Verify if social icons are clickable and lead to the correct URLs
 
-- Preconditions: User is on a page where social icons are displayed.
+> Preconditions: User is on a page where social icons are displayed.
 - Steps:
 - Locate the social icons (e.g., Facebook, Twitter, Instagram).
 - Click on each social icon.
-- Verify that the respective social media page or website is opened in a new tab and the correct URL is loaded.
+> Verify that the respective social media page or website is opened in a new tab and the correct URL is loaded.
 
 Overall results: 
 ![image](https://github.com/huysam11/CypressTesting/assets/99052999/b4331497-cf97-41c8-8851-c43fbaeaad1c)
