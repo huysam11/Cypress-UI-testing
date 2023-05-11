@@ -23,5 +23,6 @@ it('login with locked out user', () => {
     .get('[data-test="password"]') .type('secret_sauce')
     .get('[data-test="login-button"]').click()
     .get('[data-test="error"]').should('contain.text','Sorry, this user has been locked out')
+  cy.clearCookies()
 })
 
